@@ -17,3 +17,5 @@ MAIN VERSION LINE
 - infrastructure/docker
 - infrastructure/monitoring
 - infrastructure/.github/workflows
+
+CONFLICT_LINE=MAIN
