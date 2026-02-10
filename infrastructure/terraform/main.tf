@@ -5,3 +5,4 @@ terraform {
 output "repo" {
   value = "devops-infrastructure-repo"
 }
+# notes
