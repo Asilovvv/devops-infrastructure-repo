@@ -16,3 +16,6 @@ jobs:
 
       - name: Show files
         run: ls -R
+
+      - name: Print CI context
+        run: echo "branch="
