@@ -9,3 +9,11 @@ Includes:
 Main change line
 Feature change line
 MAIN VERSION LINE
+
+## Repository tree
+- infrastructure/terraform
+- infrastructure/ansible
+- infrastructure/kubernetes
+- infrastructure/docker
+- infrastructure/monitoring
+- infrastructure/.github/workflows
