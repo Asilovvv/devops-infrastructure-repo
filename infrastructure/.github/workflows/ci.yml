@@ -1,0 +1,15 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate structure
+        run: |
+          test -f infrastructure/README.md
+          test -f infrastructure/docker/Dockerfile
+          test -f infrastructure/terraform/main.tf
+          test -f infrastructure/kubernetes/deployment.yaml
+          echo "OK"
+
