@@ -13,3 +13,6 @@ jobs:
           test -f infrastructure/kubernetes/deployment.yaml
           echo "OK"
 
+
+      - name: Show files
+        run: ls -R
