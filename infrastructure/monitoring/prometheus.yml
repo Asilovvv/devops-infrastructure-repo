@@ -1,2 +1,4 @@
 
 # alerting placeholder
+
+# Notes: add exporters later (node_exporter, cadvisor)
