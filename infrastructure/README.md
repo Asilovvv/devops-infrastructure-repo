@@ -18,4 +18,4 @@ MAIN VERSION LINE
 - infrastructure/monitoring
 - infrastructure/.github/workflows
 
-CONFLICT_LINE=MAIN
+CONFLICT_LINE=FEATURE
